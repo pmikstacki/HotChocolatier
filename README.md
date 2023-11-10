@@ -4,6 +4,16 @@
 HotChocolate GraphQL Schema Generator for Entity Framework DbSets
 It enables you to create hassle-free GraphQL APIs without having to write Schema manually (for queries and subscriptions - i still recommend using rest for writes)
 
+## Installation
+
+### Install adnotations package in the project that holds your DbContext 
+`dotnet add package HotChocolatier.Adnotations --version 1.0.0`
+or
+`NuGet\Install-Package HotChocolatier.Adnotations -Version 1.0.0`
+
+### Install dotnet tool 
+`dotnet tool install --global HotChocolatier.Tool --version 1.0.0`
+
 # How it Works
 It generates GraphQL Schema for Query and Subscription. Example use:
 ### IMPORTANT NOTE
@@ -20,10 +30,7 @@ in the first propertygroup section
 ```
 Then you need to build the project and call HotChocolatier with following attributes: 
 ```
--a E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.Data\bin\Debug\net7.0\GameDesignStudio.Data.dll
--n GameDesignStudio.GraphQL.Schema 
--v 
--o E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.GraphQL
+hotchocolatier -a E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.Data\bin\Debug\net7.0\GameDesignStudio.Data.dll -n GameDesignStudio.GraphQL.Schema -v -o E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.GraphQL
 ```
 If you feel lost, there's always -h that displays the manual, but here's a rundown of options:
 * -a is a dll holding the DbContext class
