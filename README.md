@@ -82,6 +82,3 @@ public async ValueTask<GameDesignStudio.Data.Model.Auth.User?> GetUser([Service(
 }
 ```
 
-## I'M SOLD WHERE TO GET THIS 
-
-I will post here links for tool install and nuget package for adnotations soon
