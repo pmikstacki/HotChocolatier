@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolatier", "HotChocolatier\HotChocolatier.csproj", "{C988E81E-85B5-4904-8F3B-1C36740ACC46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolatier.Adnotations", "HotChocolatier.Adnotations\HotChocolatier.Adnotations.csproj", "{ACAC61A1-1D7B-49DA-A12D-3E241C1D767D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C988E81E-85B5-4904-8F3B-1C36740ACC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C988E81E-85B5-4904-8F3B-1C36740ACC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C988E81E-85B5-4904-8F3B-1C36740ACC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C988E81E-85B5-4904-8F3B-1C36740ACC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAC61A1-1D7B-49DA-A12D-3E241C1D767D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAC61A1-1D7B-49DA-A12D-3E241C1D767D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAC61A1-1D7B-49DA-A12D-3E241C1D767D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAC61A1-1D7B-49DA-A12D-3E241C1D767D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E08C48F5-148D-4300-B193-8B9B92B2AD27}
+	EndGlobalSection
+EndGlobal

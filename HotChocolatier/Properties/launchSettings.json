@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HotChocolatier": {
+      "commandName": "Project",
+      "commandLineArgs": " -a E:\\Projects\\GameDesignStudio\\src\\Backend\\GameDesignStudio.Data\\bin\\Debug\\net7.0\\GameDesignStudio.Data.dll -n GameDesignStudio.GraphQL.Schema -v -o E:\\Projects\\GameDesignStudio\\src\\Backend\\GameDesignStudio.GraphQL"
+    }
+  }
+}
