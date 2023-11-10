@@ -4,6 +4,7 @@ It enables you to create hassle-free GraphQL APIs without having to write Schema
 
 # How it Works
 It generates GraphQL Schema for Query and Subscription. Example use:
+
 `-a E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.Data\bin\Debug\net7.0\GameDesignStudio.Data.dll
 -n GameDesignStudio.GraphQL.Schema 
 -v 
