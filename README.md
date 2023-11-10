@@ -23,7 +23,7 @@ Then you need to build the project and call HotChocolatier with following attrib
 -v 
 -o E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.GraphQL
 ```
-If you feel lost, there's always -h that displays the manual, but here's a rundown of options
+If you feel lost, there's always -h that displays the manual, but here's a rundown of options:
 * -a is a dll holding the DbContext class
 * -n is a target namespace of generated schema
 * -v is used to display verbose logs
