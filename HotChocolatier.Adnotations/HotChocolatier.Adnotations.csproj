@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -12,9 +12,9 @@
 		<Version>1.0.0</Version>
 		<Description>Adnotations library for HotChocolatier Schema Generator</Description>
 		<Authors>Piotr Mikstacki</Authors>
-		<ProjectUrl>https://github.com/pmikstacki/Blast</ProjectUrl>
-		<PackageProjectUrl>https://github.com/pmikstacki/Blast</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/pmikstacki/Blast</RepositoryUrl>
+		<ProjectUrl>https://github.com/pmikstacki/HotChocolatier</ProjectUrl>
+		<PackageProjectUrl>https://github.com/pmikstacki/HotChocolatier</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/pmikstacki/HotChocolatier</RepositoryUrl>
 		<PackageTags>HotChocolatier, Tool, Adnotations, GraphQL, HotChocolate, StrawberryShake, ChiliCream</PackageTags>
 	</PropertyGroup>
 </Project>

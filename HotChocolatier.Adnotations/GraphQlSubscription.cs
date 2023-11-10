@@ -1,6 +1,8 @@
-﻿namespace HotChocolatier.Adnotations;
-
-public class GraphQlSubscriptionAttribute : System.Attribute
+﻿namespace HotChocolatier.Adnotations
 {
-    public bool Authorize { get; set; }
+    public class GraphQlSubscriptionAttribute : System.Attribute
+    {
+        public bool Authorize { get; set; }
+    }
 }
+
