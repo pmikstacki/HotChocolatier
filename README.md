@@ -4,12 +4,26 @@ It enables you to create hassle-free GraphQL APIs without having to write Schema
 
 # How it Works
 It generates GraphQL Schema for Query and Subscription. Example use:
+### IMPORTANT NOTE
+You need to add `<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>` to your DbContext Project
+in the first propertygroup section
 
-`-a E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.Data\bin\Debug\net7.0\GameDesignStudio.Data.dll
+```XML
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> <!-- Here -->
+  </PropertyGroup>
+```
+Then you need to build the project and call HotChocolatier with following attributes: 
+```
+-a E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.Data\bin\Debug\net7.0\GameDesignStudio.Data.dll
 -n GameDesignStudio.GraphQL.Schema 
 -v 
--o E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.GraphQL`
-
+-o E:\Projects\GameDesignStudio\src\Backend\GameDesignStudio.GraphQL
+```
+If you feel lost, there's always -h that displays the manual, but here's a rundown of options
 * -a is a dll holding the DbContext class
 * -n is a target namespace of generated schema
 * -v is used to display verbose logs
