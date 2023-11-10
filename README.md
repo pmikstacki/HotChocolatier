@@ -18,7 +18,10 @@ It automatically names partials based on DbSet name. So example output will look
 
 ```CSharp
 // ... inside DbContext
- [GraphQlSubscription(Authorize = true), GraphQlList(UseSorting = true, UseFiltering = true, UseProjection = true, Authorize = true), GraphQlPagedList(UseSorting = true, UseFiltering = true, UseProjection = true, Authorize = true), GraphQlGetById(Authorize = true)]
+ [GraphQlSubscription(Authorize = true),
+ GraphQlList(UseSorting = true, UseFiltering = true, UseProjection = true, Authorize = true),
+ GraphQlPagedList(UseSorting = true, UseFiltering = true, UseProjection = true, Authorize = true),
+ GraphQlGetById(Authorize = true)]
     public DbSet<User> Users { get; set; }
 ```
 
