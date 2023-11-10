@@ -1,4 +1,6 @@
 # HotChocolatier
+![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) [![](https://img.shields.io/nuget/v/HotChocolatier.Adnotations?label=Adnotations%20Package&style=for-the-badge)](https://www.nuget.org/packages/HotChocolatier.Adnotations/) [![](https://img.shields.io/nuget/v/HotChocolatier.Tool?label=Tool&style=for-the-badge)](https://www.nuget.org/packages/HotChocolatier.Tool/)
+
 HotChocolate GraphQL Schema Generator for Entity Framework DbSets
 It enables you to create hassle-free GraphQL APIs without having to write Schema manually (for queries and subscriptions - i still recommend using rest for writes)
 
